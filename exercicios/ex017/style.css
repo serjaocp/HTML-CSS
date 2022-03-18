@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*
+   p{text-align: justify;}
+   
+   
+
+   
+   body{
+       background-attachment: fixed;
+       background-image: linear-gradient(to bottom,#fae8d7,#dd9867);
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+
+       /*as medidas das fontes são em absolutas
+       cm, mm, in, px, pt, pc
+       e em Relativas
+       em, ex, rem, vw,vh,% 
+       ao usar é recomendável sempre px ou em*/
+       /*tamanho padrão na tela é de 16px*/
+       /*16px=1em*/
+       font-size: 0.8em ;
+       font-weight: lighter;
+   }
+
+   main{
+       background-color: white;
+       width: 750px; 
+       margin: auto;
+       padding: 20px;
+       border-radius: 10px; 
+       box-shadow: 5px 5px 10px #6d605579;  
+       }
+
+    h1{text-align: center;text-shadow: 2px 2px 3px #74470493; }
+    h1,h2{ color: #0F5183; 
+    /*fazendo uma configuração de fontes em um unico comando
+    chamado de shorthand: que é
+    -font style-> font weight-> font size ->font family*/
+    font: italic bolder 3em 'Lucida Sans';
+      
+    }

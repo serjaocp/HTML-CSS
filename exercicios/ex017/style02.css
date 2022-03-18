@@ -1,0 +1,17 @@
+@charset "UTF-8";
+  
+   body{
+       background-attachment: fixed;
+       background-image: linear-gradient(to bottom,#b9f1c1,#097733);
+       font:normal 1em arial,verdana,serif; }
+   main{
+       background-color: rgba(255, 255, 255, 0.87);
+       width: 550px; 
+       margin-left:  100px;
+       padding: 20px;
+       border-radius: 10px; 
+       box-shadow: 5px 5px 10px #6d605579; }
+    
+    h1,h2{text-align: right; text-shadow: 2px 2px 3px #7a7878;color: #990808; 
+       font: italic bolder 3em 'Lucida Sans'; }
+    p{ text-align: justify; text-indent: 60px; }

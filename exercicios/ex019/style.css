@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*tudo que em html é ID em CSS é "#" só pode um elemento
+  tudo que em htmal e class em css é "." pode varios elementos */
+
+body{
+    background-color: rgb(209, 231, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{ color: rgb(77, 119, 105);
+
+}
+/*posso colocar ou não neste caso o h1 ou apenas # ex: #principal ou h1#principal */
+h1#principal{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 119, 105);
+    text-align: center;
+}
+h2{ color: rgb(7, 216, 164);
+
+}
+.basico{color: rgb(7, 216, 164);
+
+}
+.intermediario{color: rgb(216, 213, 7);
+
+}
+.avancado{color: rgb(216, 7, 7);
+
+}
+.destaque{
+  background-color: rgba(197, 197, 96, 0.43);
+}

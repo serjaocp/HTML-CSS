@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+nav{background-color: rgb(87, 85, 85);    
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+nav >a{color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+main{background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px 10px 0px; /*borda individual*/
+    /* ou border-radius: 0px 10px; para os vertices*/
+    /* ou border-radius: 10px; para todos os vertices*/
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+nav>a:hover{text-decoration: underline;
+    color: aqua;
+}
+article{background-color: lightgray;
+    padding: 5px;
+}
+article aside> p{ background-color: rgb(150, 148, 148);
+    padding: 5px;
+}
+footer{background-color: black;
+    color: white; 
+    text-align: center; 
+    padding: 4px;         
+}
+footer >p{margin: 0px;}
