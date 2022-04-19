@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+    }
+    h1{
+        width: 500px;
+        text-align: center;
+        color:blueviolet;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;        
+    }
+    caption{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead, tfoot{
+        background-color: gray;
+        color: white;
+    }
+    td.num{
+        text-align: right;
+        
+    }
+    tbody>tr:nth-child(odd){/*impares ou posso colocar 2n-1 */
+        background-color: lightgray;
+    }
+    tbody>tr:nth-child(even){ /*pares ou posso color 2n - tanto em pares ou em impares o 2n pode ser 3n 4n 5n onde o numero representa o valor a pular*/
+        background-color: white;
+    }
+
+</style>
+<body>
+    <H1>Uso de Tabelas Grandes</H1>
+    <!-- Anatomia para tabelas grandes-->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:50px">Populaçao</th>
+            </tr>
+        </thead>        
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.262.199</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">19.597.330</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">15.989.929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">14.044.525</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.016.906</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="num">10.693.929</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">8.796.448</td>                
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.452.381</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="num">7.581.051</td>
+            </tr>
+                     
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Totalização</th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
