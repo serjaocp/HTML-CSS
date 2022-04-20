@@ -18,7 +18,8 @@
     }
     table{
         width: 500px;
-        border-collapse: collapse;        
+        border-collapse: collapse;
+        position: relative;        
     }
     caption{
         font-size: 1.3em;
@@ -37,6 +38,11 @@
     td.num{
         text-align: right;
         
+    }
+    thead>tr>th{/*colando cabeçalho na tabela*/
+        position: sticky;
+        top: -1px;
+        background-color: gray;
     }
     tbody>tr:nth-child(odd){/*impares ou posso colocar 2n-1 */
         background-color: lightgray;
