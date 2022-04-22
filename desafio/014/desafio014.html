@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Escola ficticia2</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        width: 500px;
+        text-align: center;
+    }
+    table{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        width: 500px;
+        height: 300px;
+        border-collapse: collapse;
+    }
+    caption{
+        background-color: aqua;
+        font-weight: bold;
+        color: white;
+        padding: 10px;        
+    }
+    thead{
+        background-color: gray;
+        color: white;
+    }
+    tr,th,td{
+        border: 1px solid black;
+        
+    }
+    .total{
+        background-color: gray;
+        color: white;
+    }
+    .dic{
+        text-align: left;
+    }
+     
+</style>
+<body>
+    <h1>Fechamento de Notas</h1>
+    <table>
+        <caption>Escola ficticia2</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Area</th>
+                <th rowspan="2" scope="col">Diciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>            
+            </tr>
+            <tr>
+                <th scope="col">Nota1</th>
+                <th scope="col">Nota2</th>
+            </tr>
+        </thead>
+             <tbody>
+                 <th rowspan="4" scope="rowgroup">Exatas</th>
+                    <td class="dic">Matemática</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                 <tr>
+                     <td class="dic">Física</td>
+                     <td>1</td>
+                     <td>2</td>
+                     <td>3</td>
+                 </tr>
+                 <tr>
+                    <td class="dic">Quimica</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td class="dic">Biologia</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr class="total">
+                    <th colspan="4" class="dic" scope="row">Média de exatas</th>
+                    <td>10</td>
+                </tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                 <td class="dic">História</td>
+                 <td>1</td>
+                 <td>2</td>
+                 <td>3</td>
+                 <tr>
+                     <td class="dic">Geografia</td>
+                     <td>1</td>
+                     <td>2</td>
+                     <td>3</td>
+                 </tr>
+                 <tr class="total">
+                    <th colspan="4" class="dic" scope="row">Média de Humanas</th>
+                    <td>10</td>
+                </tr>
+             </tbody>
+      
+
+    </table>
+</body>
+</html>
